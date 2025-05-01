@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    double x,y;
+    x=233.0;
+    y=666.0;
+    double d=hypot(x,y);
+    long long ans =d+d*atan2(666,233);
+    cout<<ans<<endl;
+    return 0;
+}
